@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="device/moto/shamu" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/Settings" />
+
+  <remote name="origin" fetch="git://github.com/cyosp-by-pjt/" />
+
+  <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk"  remote="origin" revision="cyosp-1-MA"/>
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="origin" revision="cyosp-1-MA"/>
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="origin" revision="cyosp-1-MA"/>
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="origin" revision="cyosp-1-MA"/>
+  <project path="vendor/cyosp" name="vendor_cyosp" remote="origin" revision="master"/>
+
+  <remote name="Benzo" fetch="git://github.com/BenzoRom/" />
+  <project path="external/busybox" name="external_busybox" remote="Benzo" revision="marshmallow"/>
+</manifest>
