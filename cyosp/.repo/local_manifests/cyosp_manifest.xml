@@ -13,5 +13,5 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="origin" revision="cyosp-1-MB"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="origin" revision="cyosp-1-MB"/>
   <project path="vendor/cyosp" name="vendor_cyosp" remote="origin" revision="cyosp-1-MB"/>
-  <project path="vendor/motorola" name="https://github.com/cyosp-by-pjt/vendor_motorola_shamu" remote="origin" revision="marshmallow"/>
+  <project path="vendor/motorola" name="vendor_motorola_shamu" remote="origin" revision="marshmallow"/>
 </manifest>
