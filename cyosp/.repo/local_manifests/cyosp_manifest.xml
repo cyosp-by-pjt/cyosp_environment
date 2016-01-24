@@ -5,13 +5,22 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/external/bzip2" />
+  <remove-project name="platform/external/toybox" />
 
   <remote name="origin" fetch="https://github.com/cyosp-by-pjt/" />
+
+  <project path="external/pigz" name="android_external_pigz" remote="origin" revision="cm-13.0"/>
+  <project path="external/libtruezip" name="android_external_libtruezip" remote="origin" revision="cm-13.0"/>
 
   <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk"  remote="origin" revision="cyosp-1-MB"/>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="origin" revision="cyosp-1-MB"/>
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="origin" revision="cyosp-1-MB"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="origin" revision="cyosp-1-MB"/>
+  <project path="external/bzip2" name="external_bzip2" groups="pdk" remote="origin" revision="cyosp-1-MB"/>
+  <project path="external/toybox" name="external_toybox" groups="pdk" remote="origin" revision="cyosp-1-MB"/>
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="origin" revision="cyosp-1-MB"/>
   <project path="vendor/cyosp" name="vendor_cyosp" remote="origin" revision="cyosp-1-MB"/>
   <project path="vendor/motorola" name="vendor_motorola_shamu" remote="origin" revision="marshmallow"/>
+
 </manifest>
