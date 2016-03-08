@@ -9,9 +9,10 @@
   <remove-project name="platform/external/toybox" />
 
   <remote name="origin" fetch="https://github.com/cyosp-by-pjt/" />
+  <remote name="cyanogenmod" fetch="https://github.com/cyanogenmod/" />
 
-  <project path="external/pigz" name="android_external_pigz" remote="origin" revision="cm-13.0"/>
-  <project path="external/libtruezip" name="android_external_libtruezip" remote="origin" revision="cm-13.0"/>
+  <project path="external/pigz" name="android_external_pigz" remote="cyanogenmod" revision="cm-13.0"/>
+  <project path="external/libtruezip" name="android_external_libtruezip" remote="cyanogenmod" revision="cm-13.0"/>
 
   <project path="device/moto/shamu" name="device_moto_shamu" groups="device,shamu,broadcom_pdk"  remote="origin" revision="cyosp-1-MB"/>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="origin" revision="cyosp-1-MB"/>
